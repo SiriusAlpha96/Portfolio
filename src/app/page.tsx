@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { H1 } from "@/components/ui/H1";
-import me from "@/assets/me.jpg"
+import me from "@/assets/me.jpg";
+import { H2 } from "@/components/ui/H2";
 
 export const metadata: Metadata={
   title: "Shreya Maurya -My Portfolio"
@@ -27,6 +28,9 @@ export default function Home() {
           />
           
         </div>
+      </section>
+      <section className="space-y-3 text-center">
+        <H2>Ask the chatbot anything about me.</H2>
       </section>
     </section>
   );
