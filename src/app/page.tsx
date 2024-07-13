@@ -16,7 +16,7 @@ export default function Home() {
         <div className="space-y-3">
           <H1 className="text-center sm:text-start ">Hi, I&apos;m Shreya 👋</H1>
           <p className="text-center sm:text-start">
-          I&apos;m Shreya Maurya, a passionate Web Developer with a keen interest in crafting visually appealing and user-friendly websites. Over the past two years, I have honed my skills in HTML, CSS, JavaScript, React, Next, TypeScript and responsive design, dedicating myself to delivering high-quality code, performance optimization, and innovative solutions.
+          I&apos;m Shreya Maurya, a passionate Web Developer with a keen interest in crafting visually appealing and user-friendly websites. Over the past three years, I have honed my skills in HTML, CSS, JavaScript, React, Next, TypeScript and responsive design, dedicating myself to delivering high-quality code, performance optimization, and innovative solutions.
           </p>
         </div>
         <div className="flex justify-center">
