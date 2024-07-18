@@ -1,17 +1,9 @@
 import { getVectorStore } from "@/lib/astradb";
 import { AIMessage, HumanMessage } from "@langchain/core/messages";
-import {
-  ChatPromptTemplate,
-  MessagesPlaceholder,
-  PromptTemplate,
-} from "@langchain/core/prompts";
+import { ChatPromptTemplate, MessagesPlaceholder, PromptTemplate } from "@langchain/core/prompts";
 import { ChatOpenAI } from "@langchain/openai";
 import { Redis } from "@upstash/redis";
-import {
-  LangChainStream,
-  StreamingTextResponse,
-  Message as VercelChatMessage,
-} from "ai";
+import { LangChainStream, StreamingTextResponse,Message as VercelChatMessage } from "ai";
 import { UpstashRedisCache } from "langchain/cache/upstash_redis";
 import { createStuffDocumentsChain } from "langchain/chains/combine_documents";
 import { createHistoryAwareRetriever } from "langchain/chains/history_aware_retriever";
